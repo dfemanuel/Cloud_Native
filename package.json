@@ -1,0 +1,23 @@
+{
+  "name": "cloudnative",
+  "version": "1.0.0",
+  "description": "API Rest para cadeira de cloud native da uni7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "cloudnative",
+    "uni7"
+  ],
+  "author": "emanuel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
