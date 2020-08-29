@@ -1,0 +1,10 @@
+version: '3'
+services:
+    web:
+        image: dfemanuel/cloud-native:1.0
+        ports: 
+            - "8000:3000"
+    aluno:
+        image: "allanfvc/uni7sum:1.1.0"
+        ports: 
+            - "8081:8080"
