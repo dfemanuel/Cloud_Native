@@ -4,7 +4,8 @@
   "description": "API Rest para cadeira de cloud native da uni7",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "REST",
@@ -18,6 +19,15 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "opossum": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfemanuel/cloud_native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dfemanuel/cloud_native/issues"
+  },
+  "homepage": "https://github.com/dfemanuel/cloud_native#readme"
 }
